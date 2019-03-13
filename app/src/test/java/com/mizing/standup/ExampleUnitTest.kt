@@ -13,5 +13,6 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+        //테스트 커밋 주석 추가
     }
 }
