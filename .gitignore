@@ -18,3 +18,5 @@
 .idea/vcs.xml
 app/libs/
 gradle/
+gradlew.bat
+gradlew
