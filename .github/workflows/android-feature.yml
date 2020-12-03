@@ -21,9 +21,9 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Gradle
-        run: ./gradlew build
+        run: sudo bash ./gradlew build
       - name: Build debug APK
-        run: bash ./gradlew assembleDebug --stacktrace
+        run: sudo bash ./gradlew assembleDebug --stacktrace
       - name: Upload APK
         uses: actions/upload-artifact@v2.2.1
         with:
